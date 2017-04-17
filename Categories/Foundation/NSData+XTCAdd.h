@@ -55,8 +55,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)xtc_hmacSHA512StringWithKey:(NSString *)key;
 - (NSData *)xtc_hmacSHA512DataWithKey:(NSData *)key;
 
-- (NSString *)xtc_crc32String;
-- (uint32_t)xtc_crc32;
+//- (NSString *)xtc_crc32String;
+//- (uint32_t)xtc_crc32;
 
 #pragma mark - Encrypt and Decrypt
 

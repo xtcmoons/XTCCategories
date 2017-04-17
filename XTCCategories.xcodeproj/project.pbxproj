@@ -15,6 +15,11 @@
 		05F0AF0E1EA5154700757690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F0AF0C1EA5154700757690 /* LaunchScreen.storyboard */; };
 		05F0AF1D1EA5159D00757690 /* NSData+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F0AF181EA5159D00757690 /* NSData+XTCAdd.m */; };
 		05F0AF1E1EA5159D00757690 /* NSString+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F0AF1A1EA5159D00757690 /* NSString+XTCAdd.m */; };
+		05F0AF211EA5272C00757690 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F0AF201EA5272C00757690 /* CoreFoundation.framework */; };
+		05F0AF231EA5273900757690 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F0AF221EA5273900757690 /* QuartzCore.framework */; };
+		05F0AF251EA5277400757690 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F0AF241EA5277400757690 /* CoreText.framework */; };
+		05F0AF271EA5277E00757690 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F0AF261EA5277E00757690 /* ImageIO.framework */; };
+		05F0AF291EA5279600757690 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F0AF281EA5279600757690 /* CoreImage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		05F0AF191EA5159D00757690 /* NSString+XTCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XTCAdd.h"; sourceTree = "<group>"; };
 		05F0AF1A1EA5159D00757690 /* NSString+XTCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XTCAdd.m"; sourceTree = "<group>"; };
 		05F0AF1C1EA5159D00757690 /* XTCCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCCategories.h; sourceTree = "<group>"; };
+		05F0AF201EA5272C00757690 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		05F0AF221EA5273900757690 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		05F0AF241EA5277400757690 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		05F0AF261EA5277E00757690 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		05F0AF281EA5279600757690 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05F0AF291EA5279600757690 /* CoreImage.framework in Frameworks */,
+				05F0AF271EA5277E00757690 /* ImageIO.framework in Frameworks */,
+				05F0AF251EA5277400757690 /* CoreText.framework in Frameworks */,
+				05F0AF231EA5273900757690 /* QuartzCore.framework in Frameworks */,
+				05F0AF211EA5272C00757690 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +67,7 @@
 				05F0AF151EA5159D00757690 /* Categories */,
 				05F0AEFD1EA5154700757690 /* XTCCategories */,
 				05F0AEFC1EA5154700757690 /* Products */,
+				05F0AF1F1EA5272C00757690 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +129,18 @@
 			children = (
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		05F0AF1F1EA5272C00757690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F0AF281EA5279600757690 /* CoreImage.framework */,
+				05F0AF261EA5277E00757690 /* ImageIO.framework */,
+				05F0AF241EA5277400757690 /* CoreText.framework */,
+				05F0AF221EA5273900757690 /* QuartzCore.framework */,
+				05F0AF201EA5272C00757690 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

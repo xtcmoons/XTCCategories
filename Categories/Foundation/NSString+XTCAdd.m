@@ -75,9 +75,9 @@
             xtc_hmacSHA512StringWithKey:key];
 }
 
-- (nullable NSString *)xtc_crc32String:(NSString *)key {
-    return [[self dataUsingEncoding:NSUTF8StringEncoding] xtc_crc32String];
-}
+//- (nullable NSString *)xtc_crc32String:(NSString *)key {
+//    return [[self dataUsingEncoding:NSUTF8StringEncoding] xtc_crc32String];
+//}
 
 - (NSString *)xtc_base64EncodedString {
     return [[self dataUsingEncoding:NSUTF8StringEncoding] xtc_base64EncodedString];

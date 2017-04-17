@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (nullable NSString *)xtc_hmacSHA256StringWithKey:(NSString *)key;
 - (nullable NSString *)xtc_hmacSHA384StringWithKey:(NSString *)key;
 - (nullable NSString *)xtc_hmacSHA512StringWithKey:(NSString *)key;
-- (nullable NSString *)xtc_crc32String:(NSString *)key;
+//- (nullable NSString *)xtc_crc32String:(NSString *)key;
 
 #pragma mark - Encode and decode
 

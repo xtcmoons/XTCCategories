@@ -238,15 +238,15 @@
     return [self hmacDataUsingAlg:kCCHmacAlgSHA512 withKey:key];
 }
 
-- (NSString *)xtc_crc32String {
-    uLong result = crc32(0, self.bytes, (uInt)self.length);
-    return [NSString stringWithFormat:@"%08x", (uint32_t)result];
-}
-
-- (uint32_t)xtc_crc32 {
-    uLong result = crc32(0, self.bytes, (uInt)self.length);
-    return (uint32_t)result;
-}
+//- (NSString *)xtc_crc32String {
+//    uLong result = crc32(0, self.bytes, (uInt)self.length);
+//    return [NSString stringWithFormat:@"%08x", (uint32_t)result];
+//}
+//
+//- (uint32_t)xtc_crc32 {
+//    uLong result = crc32(0, self.bytes, (uInt)self.length);
+//    return (uint32_t)result;
+//}
 
 - (NSData *)xtc_aes256EncryptWithKey:(NSData *)key iv:(NSData *)iv {
     if (key.length != 16 && key.length != 24 && key.length != 32) {
