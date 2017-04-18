@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "A manager to get iOS keyboard views, frames and transform."
 #s.description  = <<-DESC
 #
-  s.homepage     = "https://github.com/xtcmoons/XTCCategories.git"
+  s.homepage     = "https://github.com/xtcmoons/XTCCategories"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 #s.license      = "MIT"

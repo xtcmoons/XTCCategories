@@ -7,132 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		156091437515C2C4B049CA6A8120A18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2F098A939D3179E61388BC3B7C0072D1 /* UIView+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = 240E1837207E2D2A0A312AF426E0D369 /* UIView+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3512AC671A51B7DDB082B0C2BAFA2CB9 /* XTCChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC7EB4F3258B3532F6BBE39605C2946 /* XTCChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47EDC05C27ED671E638E786AB2BF3457 /* UIView+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E86D8581D9007DBFEFD3F9CB21463C4 /* UIView+Chain.m */; };
-		5BC3F1FAA8BA387BC4B58EF57B7EA4C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6040067D64AED771D4080883C18814AC /* XTCChainKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB4DEEDCA59056912125B4336B87702 /* XTCChainKit-dummy.m */; };
-		75B6D8AEBE56DFD1A157711ACB353855 /* UIControl+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF3FBBF9C0C5133440B8C26BAEA1605 /* UIControl+Chain.m */; };
-		7B5E5D3975F4248C8206C88EFC9629C6 /* Pods-XTCCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5022349E3B67346A76B01B9B33EB6ED3 /* Pods-XTCCategories-dummy.m */; };
-		874D0BB33C8C94669A4F806142C8DF20 /* UIControl+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FAC6780B68579FC8ECFA19FA955E054 /* UIControl+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B992042684A21BEE5FA3D24273F5EBC6 /* UILabel+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = A838032767EC849D23B7B13E2273B1DC /* UILabel+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D36ECE8EA4D102C26490C98B6814BC10 /* UIButton+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4188E6BC4BD50AA5053F71235721C8 /* UIButton+Chain.m */; };
-		D3974FE10EB275B3498A3F1D690B3E6C /* UILabel+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 06195A3CEF6C958552B40A4FEB8EBAA9 /* UILabel+Chain.m */; };
-		EF99A754460406EB804F7102793284BA /* UIButton+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E544399C5A386D2CDF010AD32EF82DA /* UIButton+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D8C74B18640295F8C7DA4C01B65CF20 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B5A2E5D50A7B4EADA70A695D86B36B3 /* QuartzCore.framework */; };
+		147619C304593F4E42E27A5C37783778 /* UIImage+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 66054549E98623DB371B699F0142E64E /* UIImage+XTCAdd.m */; };
+		1AC2A866DA42BECB16B2A68BDED5ECFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBBE1E0AB626B34B49EE2BAF309AC4 /* Foundation.framework */; };
+		1CC2A68D7A11D3D63781622FF0138A99 /* UIView+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBAC12801106C22C5C598DDD8868EA3 /* UIView+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265DD7E7035A257FBF0B8C4D2A939855 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9AEC47A68AFC1DDAE7BCB71EA02CDD /* CoreImage.framework */; };
+		3911565DE272ED02111850E767B48C21 /* UIControl+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = B856E0884061359BEB3D7D197160AF5E /* UIControl+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CB6B98E4043CE52204DBF28277FA845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBBE1E0AB626B34B49EE2BAF309AC4 /* Foundation.framework */; };
+		400B69FDB60739C2023A64D11D5A5C0A /* NSData+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E64F47C9A38344920A2A1DDC066FEFB9 /* NSData+XTCAdd.m */; };
+		42B5B46AC59C6BD6A652203A841B8490 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D9B64ECA00CDCF7864DE29A6EF9E76 /* ImageIO.framework */; };
+		44659C006B2536D7EEE50C58D6287C0C /* UIButton+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB487338DC900F7AA36D152183E6D60 /* UIButton+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A4D9AEB27250A5D955D3EA8CEEDFEA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9473AEABBB34F01D740C22DD9FA8A72 /* CoreText.framework */; };
+		4FF024B850498C3754BEE1B821C57441 /* XTCChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7CE4F8AAAE5AA9BC44A16D4FA78190 /* XTCChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56CFF3712F1F0D296AEFB0FC9103E0D3 /* NSString+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 036FA07122511A5A11ED5A9B14077379 /* NSString+XTCAdd.m */; };
+		5B845FDEC3D9715A30C73279B1C349BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A94F65D160D48A8BCB596DD0EEEBCD /* CoreGraphics.framework */; };
+		5C6935652EA76D2FB607CA3F3D94F5D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87CBBE1E0AB626B34B49EE2BAF309AC4 /* Foundation.framework */; };
+		66834DBD5F48ED2F322B8116BBFF6658 /* XTCCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 604C67D0DB2D0CC41EBCC5E468CB1D9D /* XTCCategories-dummy.m */; };
+		79F8C7DD0553B7350F767E1F99D755AA /* UIButton+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = BD67419CC48A26B7F967388A0DA97269 /* UIButton+Chain.m */; };
+		7D822DA1D028DBA050B1CBC2FBD7014C /* UILabel+Chain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD4488185426F22AADD0AAEC7AAD710 /* UILabel+Chain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		918CE480DEC10851B1B7B1B4F43CAC45 /* XTCCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3C341E8517ACA1FD1BBF481E70650E /* XTCCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95351C0D84DFFF6D542BC75EB87D4933 /* UIColor+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3259DCBAF88FA8BA128E4CF42FCFC9 /* UIColor+XTCAdd.m */; };
+		B856362CABD1CD9097B72BD8A74B6114 /* Pods-XTCCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5022349E3B67346A76B01B9B33EB6ED3 /* Pods-XTCCategories-dummy.m */; };
+		BB27DCF989F635A8D948A4FE349B8F61 /* UIView+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = AA114697933D876761EA31D833BC934E /* UIView+Chain.m */; };
+		BF4EF90D110AC4F48D452ED83E19CD1F /* UIImage+XTCAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D4E8CB7199714FE7D83A563D999D4E /* UIImage+XTCAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF8EA4B44DF8AA2D61D9E92C284B6ACD /* UILabel+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32152CAB62AFBD943E5EB3B312E08380 /* UILabel+Chain.m */; };
+		C5CFD700C763928374C5F7038AA1BE41 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D46D0052EB7A26E397678C731E4E2F31 /* Accelerate.framework */; };
+		CD97E0E212719264C8D6E8A49B024970 /* XTCChainKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4741D0BAC36F00A096E919A684728011 /* XTCChainKit-dummy.m */; };
+		D1B90C8271918D5A0AF404C7D6117E9E /* NSString+XTCAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD8853A4649A1B84F78E7E3CDFF21BC /* NSString+XTCAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D27DAA80CF4B4ED619CE47C7FCAA5122 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E431D462FD70555721BF55113F1F5B /* CoreFoundation.framework */; };
+		DAE21939591F7199C987600064B06221 /* UIColor+XTCAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 99588AFF521EDD41786CE7C7E79660FB /* UIColor+XTCAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B16C6CECA11A582B6D304F9DE31070 /* NSData+XTCAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1BF268378922D12B2170C577BE4A3E /* NSData+XTCAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D27AAFC2CF4A90A6EBD20B1951E6FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE72549E8DAA222C154D69226E10054B /* UIKit.framework */; };
+		FFBAD14E26D6BD3E393AA24125EEA5F4 /* UIControl+Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 07292F9D488995F359FB92765186F948 /* UIControl+Chain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		286795A2346D2F23E7F4AAE2C0C46E1D /* PBXContainerItemProxy */ = {
+		04E585B6B94392CFF5396B1A75615326 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6846A4706EC866DB7F47A04EFE13DC83;
+			remoteGlobalIDString = 2322E801956A43A607E4F623C44792CD;
 			remoteInfo = XTCChainKit;
+		};
+		FFC3CD08BE3A7201451B1DBE9B728F14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D444778E4A3F3AAA99292714E1A8AAAD;
+			remoteInfo = XTCCategories;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06195A3CEF6C958552B40A4FEB8EBAA9 /* UILabel+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chain.m"; path = "Classes/UIKit+Chain/UILabel+Chain.m"; sourceTree = "<group>"; };
+		036FA07122511A5A11ED5A9B14077379 /* NSString+XTCAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+XTCAdd.m"; path = "Categories/Foundation/NSString+XTCAdd.m"; sourceTree = "<group>"; };
+		07292F9D488995F359FB92765186F948 /* UIControl+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Chain.m"; path = "Classes/UIKit+Chain/UIControl+Chain.m"; sourceTree = "<group>"; };
 		074F3700D5AFCF24ADC2486C3C1F2416 /* Pods-XTCCategories-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTCCategories-resources.sh"; sourceTree = "<group>"; };
-		0E544399C5A386D2CDF010AD32EF82DA /* UIButton+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chain.h"; path = "Classes/UIKit+Chain/UIButton+Chain.h"; sourceTree = "<group>"; };
+		0B5A2E5D50A7B4EADA70A695D86B36B3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		155A8C75170159CDE52E4AD6CA5C67B3 /* Pods-XTCCategories-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XTCCategories-acknowledgements.plist"; sourceTree = "<group>"; };
-		18DA1C3AA4150A5D07F3E5F0AD385FB2 /* libPods-XTCCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XTCCategories.a"; path = "libPods-XTCCategories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		240E1837207E2D2A0A312AF426E0D369 /* UIView+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Chain.h"; path = "Classes/UIKit+Chain/UIView+Chain.h"; sourceTree = "<group>"; };
-		2FAC6780B68579FC8ECFA19FA955E054 /* UIControl+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Chain.h"; path = "Classes/UIKit+Chain/UIControl+Chain.h"; sourceTree = "<group>"; };
-		3E86D8581D9007DBFEFD3F9CB21463C4 /* UIView+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Chain.m"; path = "Classes/UIKit+Chain/UIView+Chain.m"; sourceTree = "<group>"; };
+		15D4E8CB7199714FE7D83A563D999D4E /* UIImage+XTCAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XTCAdd.h"; path = "Categories/UIKit/UIImage+XTCAdd.h"; sourceTree = "<group>"; };
+		1CD8853A4649A1B84F78E7E3CDFF21BC /* NSString+XTCAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+XTCAdd.h"; path = "Categories/Foundation/NSString+XTCAdd.h"; sourceTree = "<group>"; };
+		2B3C341E8517ACA1FD1BBF481E70650E /* XTCCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTCCategories.h; path = Categories/XTCCategories.h; sourceTree = "<group>"; };
+		32152CAB62AFBD943E5EB3B312E08380 /* UILabel+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chain.m"; path = "Classes/UIKit+Chain/UILabel+Chain.m"; sourceTree = "<group>"; };
+		3BD4488185426F22AADD0AAEC7AAD710 /* UILabel+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chain.h"; path = "Classes/UIKit+Chain/UILabel+Chain.h"; sourceTree = "<group>"; };
+		415337FEED7E5608662A124AD6B367D2 /* XTCChainKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTCChainKit.xcconfig; sourceTree = "<group>"; };
 		45A34BAD755564971038B1D546EA6EC9 /* Pods-XTCCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTCCategories.debug.xcconfig"; sourceTree = "<group>"; };
-		4AB4DEEDCA59056912125B4336B87702 /* XTCChainKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTCChainKit-dummy.m"; sourceTree = "<group>"; };
-		4BC7EB4F3258B3532F6BBE39605C2946 /* XTCChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTCChain.h; path = "Classes/UIKit+Chain/XTCChain.h"; sourceTree = "<group>"; };
+		4741D0BAC36F00A096E919A684728011 /* XTCChainKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTCChainKit-dummy.m"; sourceTree = "<group>"; };
+		4FB487338DC900F7AA36D152183E6D60 /* UIButton+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chain.h"; path = "Classes/UIKit+Chain/UIButton+Chain.h"; sourceTree = "<group>"; };
 		5022349E3B67346A76B01B9B33EB6ED3 /* Pods-XTCCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XTCCategories-dummy.m"; sourceTree = "<group>"; };
-		618AD78823512E45CAEA53D4EA2AACA1 /* libXTCChainKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXTCChainKit.a; path = libXTCChainKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A7DBB25DCB56E8B38FEAC6F152420AB /* XTCChainKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTCChainKit-prefix.pch"; sourceTree = "<group>"; };
-		8BF3FBBF9C0C5133440B8C26BAEA1605 /* UIControl+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Chain.m"; path = "Classes/UIKit+Chain/UIControl+Chain.m"; sourceTree = "<group>"; };
+		5C1BF268378922D12B2170C577BE4A3E /* NSData+XTCAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+XTCAdd.h"; path = "Categories/Foundation/NSData+XTCAdd.h"; sourceTree = "<group>"; };
+		604C67D0DB2D0CC41EBCC5E468CB1D9D /* XTCCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XTCCategories-dummy.m"; sourceTree = "<group>"; };
+		66054549E98623DB371B699F0142E64E /* UIImage+XTCAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XTCAdd.m"; path = "Categories/UIKit/UIImage+XTCAdd.m"; sourceTree = "<group>"; };
+		67A94F65D160D48A8BCB596DD0EEEBCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7A7CE4F8AAAE5AA9BC44A16D4FA78190 /* XTCChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XTCChain.h; path = "Classes/UIKit+Chain/XTCChain.h"; sourceTree = "<group>"; };
+		7EAE3B1B9A0AF73AFE846B5EA3F1C4C1 /* libPods-XTCCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XTCCategories.a"; path = "libPods-XTCCategories.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CBBE1E0AB626B34B49EE2BAF309AC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2F531D4044650159566B626F613909E /* XTCChainKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTCChainKit.xcconfig; sourceTree = "<group>"; };
-		A838032767EC849D23B7B13E2273B1DC /* UILabel+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chain.h"; path = "Classes/UIKit+Chain/UILabel+Chain.h"; sourceTree = "<group>"; };
+		99588AFF521EDD41786CE7C7E79660FB /* UIColor+XTCAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+XTCAdd.h"; path = "Categories/UIKit/UIColor+XTCAdd.h"; sourceTree = "<group>"; };
+		9F3259DCBAF88FA8BA128E4CF42FCFC9 /* UIColor+XTCAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+XTCAdd.m"; path = "Categories/UIKit/UIColor+XTCAdd.m"; sourceTree = "<group>"; };
+		AA114697933D876761EA31D833BC934E /* UIView+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Chain.m"; path = "Classes/UIKit+Chain/UIView+Chain.m"; sourceTree = "<group>"; };
+		B1B8526D20647B085A9551148C6C9FCA /* libXTCChainKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXTCChainKit.a; path = libXTCChainKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2D9B64ECA00CDCF7864DE29A6EF9E76 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B3E431D462FD70555721BF55113F1F5B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B856E0884061359BEB3D7D197160AF5E /* UIControl+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Chain.h"; path = "Classes/UIKit+Chain/UIControl+Chain.h"; sourceTree = "<group>"; };
+		B9473AEABBB34F01D740C22DD9FA8A72 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		BBEE481491182665DD195ED5D2EEB456 /* XTCCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTCCategories-prefix.pch"; sourceTree = "<group>"; };
+		BD67419CC48A26B7F967388A0DA97269 /* UIButton+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chain.m"; path = "Classes/UIKit+Chain/UIButton+Chain.m"; sourceTree = "<group>"; };
 		CB8552F213A7F591F3D03610B64671E2 /* Pods-XTCCategories-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XTCCategories-frameworks.sh"; sourceTree = "<group>"; };
+		D46D0052EB7A26E397678C731E4E2F31 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		D89649911C7C7D8A01E5BE79D0BBF195 /* libXTCCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXTCCategories.a; path = libXTCCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9AEC47A68AFC1DDAE7BCB71EA02CDD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
 		DE709FA06A2D1E85B4A3A384F520C565 /* Pods-XTCCategories-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XTCCategories-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED4188E6BC4BD50AA5053F71235721C8 /* UIButton+Chain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chain.m"; path = "Classes/UIKit+Chain/UIButton+Chain.m"; sourceTree = "<group>"; };
+		E41FCABE45D67C9AA99DE3394B1E83DB /* XTCChainKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XTCChainKit-prefix.pch"; sourceTree = "<group>"; };
+		E64F47C9A38344920A2A1DDC066FEFB9 /* NSData+XTCAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+XTCAdd.m"; path = "Categories/Foundation/NSData+XTCAdd.m"; sourceTree = "<group>"; };
 		ED70879B6A9E1A6B8697B50D11C5882D /* Pods-XTCCategories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XTCCategories.release.xcconfig"; sourceTree = "<group>"; };
+		EE72549E8DAA222C154D69226E10054B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4911C0E49DEEF73740CBEDAA247267A /* XTCCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XTCCategories.xcconfig; sourceTree = "<group>"; };
+		FEBAC12801106C22C5C598DDD8868EA3 /* UIView+Chain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Chain.h"; path = "Classes/UIKit+Chain/UIView+Chain.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7CCAD031DB3BBC023928716DDA27BB86 /* Frameworks */ = {
+		1E38E6343E87C3248759AC58F3806753 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156091437515C2C4B049CA6A8120A18B /* Foundation.framework in Frameworks */,
+				1AC2A866DA42BECB16B2A68BDED5ECFF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC748C54DE21B677FB467B73FABFE39A /* Frameworks */ = {
+		90EEA0191E5FF14DAC3E308396882EA0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC3F1FAA8BA387BC4B58EF57B7EA4C3 /* Foundation.framework in Frameworks */,
+				5C6935652EA76D2FB607CA3F3D94F5D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6C8F5A533C66A5BF9BBE8C6F4DD87F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5CFD700C763928374C5F7038AA1BE41 /* Accelerate.framework in Frameworks */,
+				D27DAA80CF4B4ED619CE47C7FCAA5122 /* CoreFoundation.framework in Frameworks */,
+				5B845FDEC3D9715A30C73279B1C349BF /* CoreGraphics.framework in Frameworks */,
+				265DD7E7035A257FBF0B8C4D2A939855 /* CoreImage.framework in Frameworks */,
+				45A4D9AEB27250A5D955D3EA8CEEDFEA /* CoreText.framework in Frameworks */,
+				3CB6B98E4043CE52204DBF28277FA845 /* Foundation.framework in Frameworks */,
+				42B5B46AC59C6BD6A652203A841B8490 /* ImageIO.framework in Frameworks */,
+				0D8C74B18640295F8C7DA4C01B65CF20 /* QuartzCore.framework in Frameworks */,
+				F4D27AAFC2CF4A90A6EBD20B1951E6FA /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BDE543B01D1F700E20456376D7CB558 /* Support Files */ = {
+		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A2F531D4044650159566B626F613909E /* XTCChainKit.xcconfig */,
-				4AB4DEEDCA59056912125B4336B87702 /* XTCChainKit-dummy.m */,
-				6A7DBB25DCB56E8B38FEAC6F152420AB /* XTCChainKit-prefix.pch */,
+				EEF99AAED538FE40342ED23529AF5ACA /* iOS */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/XTCChainKit";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5A41A554AC0F3ADD86B39F7E42F71F61 /* Pods */ = {
+		51A79772CB5D0859E7AD8E99395F61E4 /* XTCChainKit */ = {
 			isa = PBXGroup;
 			children = (
-				75A15027B3AAE916D973D18DDB0D67C7 /* XTCChainKit */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		74030280B296F69B8E940FB54255CAF1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				18DA1C3AA4150A5D07F3E5F0AD385FB2 /* libPods-XTCCategories.a */,
-				618AD78823512E45CAEA53D4EA2AACA1 /* libXTCChainKit.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		75A15027B3AAE916D973D18DDB0D67C7 /* XTCChainKit */ = {
-			isa = PBXGroup;
-			children = (
-				0E544399C5A386D2CDF010AD32EF82DA /* UIButton+Chain.h */,
-				ED4188E6BC4BD50AA5053F71235721C8 /* UIButton+Chain.m */,
-				2FAC6780B68579FC8ECFA19FA955E054 /* UIControl+Chain.h */,
-				8BF3FBBF9C0C5133440B8C26BAEA1605 /* UIControl+Chain.m */,
-				A838032767EC849D23B7B13E2273B1DC /* UILabel+Chain.h */,
-				06195A3CEF6C958552B40A4FEB8EBAA9 /* UILabel+Chain.m */,
-				240E1837207E2D2A0A312AF426E0D369 /* UIView+Chain.h */,
-				3E86D8581D9007DBFEFD3F9CB21463C4 /* UIView+Chain.m */,
-				4BC7EB4F3258B3532F6BBE39605C2946 /* XTCChain.h */,
-				0BDE543B01D1F700E20456376D7CB558 /* Support Files */,
+				4FB487338DC900F7AA36D152183E6D60 /* UIButton+Chain.h */,
+				BD67419CC48A26B7F967388A0DA97269 /* UIButton+Chain.m */,
+				B856E0884061359BEB3D7D197160AF5E /* UIControl+Chain.h */,
+				07292F9D488995F359FB92765186F948 /* UIControl+Chain.m */,
+				3BD4488185426F22AADD0AAEC7AAD710 /* UILabel+Chain.h */,
+				32152CAB62AFBD943E5EB3B312E08380 /* UILabel+Chain.m */,
+				FEBAC12801106C22C5C598DDD8868EA3 /* UIView+Chain.h */,
+				AA114697933D876761EA31D833BC934E /* UIView+Chain.m */,
+				7A7CE4F8AAAE5AA9BC44A16D4FA78190 /* XTCChain.h */,
+				CE949778CEDD990532D4B385BD12560C /* Support Files */,
 			);
 			name = XTCChainKit;
 			path = XTCChainKit;
+			sourceTree = "<group>";
+		};
+		6286E97A53F2063FBFBC777556F65E20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4911C0E49DEEF73740CBEDAA247267A /* XTCCategories.xcconfig */,
+				604C67D0DB2D0CC41EBCC5E468CB1D9D /* XTCCategories-dummy.m */,
+				BBEE481491182665DD195ED5D2EEB456 /* XTCCategories-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XTCCategories";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5A41A554AC0F3ADD86B39F7E42F71F61 /* Pods */,
-				74030280B296F69B8E940FB54255CAF1 /* Products */,
+				24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */,
+				E30665681436ED24A79CF5B60CFAEDAF /* Pods */,
+				EF106CA947BE6AD9B631A5246DA00C38 /* Products */,
 				A42112591CFAB0A045BEE81E64AE51E5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9BB470A49244BBD4B76A743B02A16F20 /* XTCCategories */ = {
+			isa = PBXGroup;
+			children = (
+				5C1BF268378922D12B2170C577BE4A3E /* NSData+XTCAdd.h */,
+				E64F47C9A38344920A2A1DDC066FEFB9 /* NSData+XTCAdd.m */,
+				1CD8853A4649A1B84F78E7E3CDFF21BC /* NSString+XTCAdd.h */,
+				036FA07122511A5A11ED5A9B14077379 /* NSString+XTCAdd.m */,
+				99588AFF521EDD41786CE7C7E79660FB /* UIColor+XTCAdd.h */,
+				9F3259DCBAF88FA8BA128E4CF42FCFC9 /* UIColor+XTCAdd.m */,
+				15D4E8CB7199714FE7D83A563D999D4E /* UIImage+XTCAdd.h */,
+				66054549E98623DB371B699F0142E64E /* UIImage+XTCAdd.m */,
+				2B3C341E8517ACA1FD1BBF481E70650E /* XTCCategories.h */,
+				6286E97A53F2063FBFBC777556F65E20 /* Support Files */,
+			);
+			name = XTCCategories;
+			path = XTCCategories;
 			sourceTree = "<group>";
 		};
 		A42112591CFAB0A045BEE81E64AE51E5 /* Targets Support Files */ = {
@@ -158,47 +230,89 @@
 			path = "Target Support Files/Pods-XTCCategories";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		CE949778CEDD990532D4B385BD12560C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				415337FEED7E5608662A124AD6B367D2 /* XTCChainKit.xcconfig */,
+				4741D0BAC36F00A096E919A684728011 /* XTCChainKit-dummy.m */,
+				E41FCABE45D67C9AA99DE3394B1E83DB /* XTCChainKit-prefix.pch */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/XTCChainKit";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		E30665681436ED24A79CF5B60CFAEDAF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				9BB470A49244BBD4B76A743B02A16F20 /* XTCCategories */,
+				51A79772CB5D0859E7AD8E99395F61E4 /* XTCChainKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEF99AAED538FE40342ED23529AF5ACA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D46D0052EB7A26E397678C731E4E2F31 /* Accelerate.framework */,
+				B3E431D462FD70555721BF55113F1F5B /* CoreFoundation.framework */,
+				67A94F65D160D48A8BCB596DD0EEEBCD /* CoreGraphics.framework */,
+				DC9AEC47A68AFC1DDAE7BCB71EA02CDD /* CoreImage.framework */,
+				B9473AEABBB34F01D740C22DD9FA8A72 /* CoreText.framework */,
+				87CBBE1E0AB626B34B49EE2BAF309AC4 /* Foundation.framework */,
+				B2D9B64ECA00CDCF7864DE29A6EF9E76 /* ImageIO.framework */,
+				0B5A2E5D50A7B4EADA70A695D86B36B3 /* QuartzCore.framework */,
+				EE72549E8DAA222C154D69226E10054B /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		EF106CA947BE6AD9B631A5246DA00C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EAE3B1B9A0AF73AFE846B5EA3F1C4C1 /* libPods-XTCCategories.a */,
+				D89649911C7C7D8A01E5BE79D0BBF195 /* libXTCCategories.a */,
+				B1B8526D20647B085A9551148C6C9FCA /* libXTCChainKit.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		909C024A368F211DBF90DA14712DE681 /* Headers */ = {
+		715EC7E53D8EF06C0B3419B0C99D9C91 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF99A754460406EB804F7102793284BA /* UIButton+Chain.h in Headers */,
-				874D0BB33C8C94669A4F806142C8DF20 /* UIControl+Chain.h in Headers */,
-				B992042684A21BEE5FA3D24273F5EBC6 /* UILabel+Chain.h in Headers */,
-				2F098A939D3179E61388BC3B7C0072D1 /* UIView+Chain.h in Headers */,
-				3512AC671A51B7DDB082B0C2BAFA2CB9 /* XTCChain.h in Headers */,
+				44659C006B2536D7EEE50C58D6287C0C /* UIButton+Chain.h in Headers */,
+				3911565DE272ED02111850E767B48C21 /* UIControl+Chain.h in Headers */,
+				7D822DA1D028DBA050B1CBC2FBD7014C /* UILabel+Chain.h in Headers */,
+				1CC2A68D7A11D3D63781622FF0138A99 /* UIView+Chain.h in Headers */,
+				4FF024B850498C3754BEE1B821C57441 /* XTCChain.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FDFEB3F2B90911B052924F8A40CD6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B16C6CECA11A582B6D304F9DE31070 /* NSData+XTCAdd.h in Headers */,
+				D1B90C8271918D5A0AF404C7D6117E9E /* NSString+XTCAdd.h in Headers */,
+				DAE21939591F7199C987600064B06221 /* UIColor+XTCAdd.h in Headers */,
+				BF4EF90D110AC4F48D452ED83E19CD1F /* UIImage+XTCAdd.h in Headers */,
+				918CE480DEC10851B1B7B1B4F43CAC45 /* XTCCategories.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6846A4706EC866DB7F47A04EFE13DC83 /* XTCChainKit */ = {
+		2322E801956A43A607E4F623C44792CD /* XTCChainKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D3082FCE8A33C19F1E1FB0D86AB7159 /* Build configuration list for PBXNativeTarget "XTCChainKit" */;
+			buildConfigurationList = 9C7366F2CA0604CEFAA24FAA90103DF9 /* Build configuration list for PBXNativeTarget "XTCChainKit" */;
 			buildPhases = (
-				2A5E342C49529B13B2219B26EF66E988 /* Sources */,
-				7CCAD031DB3BBC023928716DDA27BB86 /* Frameworks */,
-				909C024A368F211DBF90DA14712DE681 /* Headers */,
+				8511E704BBA1FD15529E0F62BD899B47 /* Sources */,
+				90EEA0191E5FF14DAC3E308396882EA0 /* Frameworks */,
+				715EC7E53D8EF06C0B3419B0C99D9C91 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -206,24 +320,42 @@
 			);
 			name = XTCChainKit;
 			productName = XTCChainKit;
-			productReference = 618AD78823512E45CAEA53D4EA2AACA1 /* libXTCChainKit.a */;
+			productReference = B1B8526D20647B085A9551148C6C9FCA /* libXTCChainKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		CF1F4518B7AF5BC300E95577D3668416 /* Pods-XTCCategories */ = {
+		A90D5D41F14C726E52A2176B37E4ED17 /* Pods-XTCCategories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E1E9DC46686D59B1AA7AC04864D5A37 /* Build configuration list for PBXNativeTarget "Pods-XTCCategories" */;
+			buildConfigurationList = A7B2FC5008C0BFF41486FF1BAEB62FB0 /* Build configuration list for PBXNativeTarget "Pods-XTCCategories" */;
 			buildPhases = (
-				0F804DAB1DCF0FCB00713052A70278C4 /* Sources */,
-				BC748C54DE21B677FB467B73FABFE39A /* Frameworks */,
+				1B2F5CBF6AA109F7AAABA3D49DD4E471 /* Sources */,
+				1E38E6343E87C3248759AC58F3806753 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A6523FB8DFE9A7C4F087A06E7133DD60 /* PBXTargetDependency */,
+				01543900756EB86246568B1CDE3EE0C3 /* PBXTargetDependency */,
+				99506B59C9F2D92EB501F6C771D820F2 /* PBXTargetDependency */,
 			);
 			name = "Pods-XTCCategories";
 			productName = "Pods-XTCCategories";
-			productReference = 18DA1C3AA4150A5D07F3E5F0AD385FB2 /* libPods-XTCCategories.a */;
+			productReference = 7EAE3B1B9A0AF73AFE846B5EA3F1C4C1 /* libPods-XTCCategories.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D444778E4A3F3AAA99292714E1A8AAAD /* XTCCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05FA73EC73CF8D251C9D993EF94B5586 /* Build configuration list for PBXNativeTarget "XTCCategories" */;
+			buildPhases = (
+				153E8C0DD8566092101A22AF2888C5A6 /* Sources */,
+				E6C8F5A533C66A5BF9BBE8C6F4DD87F6 /* Frameworks */,
+				C6FDFEB3F2B90911B052924F8A40CD6E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTCCategories;
+			productName = XTCCategories;
+			productReference = D89649911C7C7D8A01E5BE79D0BBF195 /* libXTCCategories.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -243,52 +375,71 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 74030280B296F69B8E940FB54255CAF1 /* Products */;
+			productRefGroup = EF106CA947BE6AD9B631A5246DA00C38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CF1F4518B7AF5BC300E95577D3668416 /* Pods-XTCCategories */,
-				6846A4706EC866DB7F47A04EFE13DC83 /* XTCChainKit */,
+				A90D5D41F14C726E52A2176B37E4ED17 /* Pods-XTCCategories */,
+				D444778E4A3F3AAA99292714E1A8AAAD /* XTCCategories */,
+				2322E801956A43A607E4F623C44792CD /* XTCChainKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F804DAB1DCF0FCB00713052A70278C4 /* Sources */ = {
+		153E8C0DD8566092101A22AF2888C5A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B5E5D3975F4248C8206C88EFC9629C6 /* Pods-XTCCategories-dummy.m in Sources */,
+				400B69FDB60739C2023A64D11D5A5C0A /* NSData+XTCAdd.m in Sources */,
+				56CFF3712F1F0D296AEFB0FC9103E0D3 /* NSString+XTCAdd.m in Sources */,
+				95351C0D84DFFF6D542BC75EB87D4933 /* UIColor+XTCAdd.m in Sources */,
+				147619C304593F4E42E27A5C37783778 /* UIImage+XTCAdd.m in Sources */,
+				66834DBD5F48ED2F322B8116BBFF6658 /* XTCCategories-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A5E342C49529B13B2219B26EF66E988 /* Sources */ = {
+		1B2F5CBF6AA109F7AAABA3D49DD4E471 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D36ECE8EA4D102C26490C98B6814BC10 /* UIButton+Chain.m in Sources */,
-				75B6D8AEBE56DFD1A157711ACB353855 /* UIControl+Chain.m in Sources */,
-				D3974FE10EB275B3498A3F1D690B3E6C /* UILabel+Chain.m in Sources */,
-				47EDC05C27ED671E638E786AB2BF3457 /* UIView+Chain.m in Sources */,
-				6040067D64AED771D4080883C18814AC /* XTCChainKit-dummy.m in Sources */,
+				B856362CABD1CD9097B72BD8A74B6114 /* Pods-XTCCategories-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8511E704BBA1FD15529E0F62BD899B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F8C7DD0553B7350F767E1F99D755AA /* UIButton+Chain.m in Sources */,
+				FFBAD14E26D6BD3E393AA24125EEA5F4 /* UIControl+Chain.m in Sources */,
+				BF8EA4B44DF8AA2D61D9E92C284B6ACD /* UILabel+Chain.m in Sources */,
+				BB27DCF989F635A8D948A4FE349B8F61 /* UIView+Chain.m in Sources */,
+				CD97E0E212719264C8D6E8A49B024970 /* XTCChainKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A6523FB8DFE9A7C4F087A06E7133DD60 /* PBXTargetDependency */ = {
+		01543900756EB86246568B1CDE3EE0C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XTCCategories;
+			target = D444778E4A3F3AAA99292714E1A8AAAD /* XTCCategories */;
+			targetProxy = FFC3CD08BE3A7201451B1DBE9B728F14 /* PBXContainerItemProxy */;
+		};
+		99506B59C9F2D92EB501F6C771D820F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XTCChainKit;
-			target = 6846A4706EC866DB7F47A04EFE13DC83 /* XTCChainKit */;
-			targetProxy = 286795A2346D2F23E7F4AAE2C0C46E1D /* PBXContainerItemProxy */;
+			target = 2322E801956A43A607E4F623C44792CD /* XTCChainKit */;
+			targetProxy = 04E585B6B94392CFF5396B1A75615326 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C56D095C2275FF9AD061C725B749D97 /* Release */ = {
+		1B52A22DDACFFCC6F539DE7CC90A128D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2F531D4044650159566B626F613909E /* XTCChainKit.xcconfig */;
+			baseConfigurationReference = ED70879B6A9E1A6B8697B50D11C5882D /* Pods-XTCCategories.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -296,9 +447,32 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XTCChainKit/XTCChainKit-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1E893E1CC457544F219038A1D71FADC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4911C0E49DEEF73740CBEDAA247267A /* XTCCategories.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XTCCategories/XTCCategories-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -307,7 +481,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -353,19 +527,19 @@
 			};
 			name = Release;
 		};
-		5155A9F99E0223B67168DAFC7037A714 /* Debug */ = {
+		9FE511B391C1748485DF02E87A5A64A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2F531D4044650159566B626F613909E /* XTCChainKit.xcconfig */;
+			baseConfigurationReference = F4911C0E49DEEF73740CBEDAA247267A /* XTCCategories.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/XTCChainKit/XTCChainKit-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/XTCCategories/XTCCategories-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -374,7 +548,53 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
+			name = Release;
+		};
+		A1E51E8ADD9016DABD4A6EF86540347A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A34BAD755564971038B1D546EA6EC9 /* Pods-XTCCategories.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
 			name = Debug;
+		};
+		A60CCEA238869D52701EED624DF1FEC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415337FEED7E5608662A124AD6B367D2 /* XTCChainKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XTCChainKit/XTCChainKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
 		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -424,9 +644,9 @@
 			};
 			name = Debug;
 		};
-		DCD79215746C20D04154C613F0EAA052 /* Debug */ = {
+		F7109A277F73CC9663247C47D6F7DCD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45A34BAD755564971038B1D546EA6EC9 /* Pods-XTCCategories.debug.xcconfig */;
+			baseConfigurationReference = 415337FEED7E5608662A124AD6B367D2 /* XTCChainKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -434,45 +654,31 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/XTCChainKit/XTCChainKit-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		FD28D18000167CF054DCF84AFE082CEF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED70879B6A9E1A6B8697B50D11C5882D /* Pods-XTCCategories.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05FA73EC73CF8D251C9D993EF94B5586 /* Build configuration list for PBXNativeTarget "XTCCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E893E1CC457544F219038A1D71FADC7 /* Debug */,
+				9FE511B391C1748485DF02E87A5A64A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -482,20 +688,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E1E9DC46686D59B1AA7AC04864D5A37 /* Build configuration list for PBXNativeTarget "Pods-XTCCategories" */ = {
+		9C7366F2CA0604CEFAA24FAA90103DF9 /* Build configuration list for PBXNativeTarget "XTCChainKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DCD79215746C20D04154C613F0EAA052 /* Debug */,
-				FD28D18000167CF054DCF84AFE082CEF /* Release */,
+				F7109A277F73CC9663247C47D6F7DCD6 /* Debug */,
+				A60CCEA238869D52701EED624DF1FEC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D3082FCE8A33C19F1E1FB0D86AB7159 /* Build configuration list for PBXNativeTarget "XTCChainKit" */ = {
+		A7B2FC5008C0BFF41486FF1BAEB62FB0 /* Build configuration list for PBXNativeTarget "Pods-XTCCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5155A9F99E0223B67168DAFC7037A714 /* Debug */,
-				1C56D095C2275FF9AD061C725B749D97 /* Release */,
+				A1E51E8ADD9016DABD4A6EF86540347A /* Debug */,
+				1B52A22DDACFFCC6F539DE7CC90A128D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

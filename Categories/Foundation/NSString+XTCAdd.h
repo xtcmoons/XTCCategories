@@ -32,6 +32,12 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - Encode and decode
 
 /**
+ URL encode a string in utf-8.
+ @return the encoded string.
+ */
+- (NSString *)xtc_stringByURLEncode;
+
+/**
  @return an NSString for base64 encoded.
  */
 - (nullable NSString *)xtc_base64EncodedString;
