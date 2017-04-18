@@ -51,5 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString *)xtc_stringWithUUID;
 
+- (NSString *)xtc_stringByTrim;
+
 @end
 NS_ASSUME_NONNULL_END

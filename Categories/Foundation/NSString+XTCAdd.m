@@ -96,4 +96,9 @@
     return (__bridge_transfer NSString *)string;
 }
 
+- (NSString *)xtc_stringByTrim {
+    NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    return [self stringByTrimmingCharactersInSet:set];
+}
+
 @end
