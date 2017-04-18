@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XTCCategories"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A manager to get iOS keyboard views, frames and transform."
 #s.description  = <<-DESC
 #
@@ -35,9 +35,9 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/xtcmoons/XTCCategories.git", :tag => s.version }
 
-  s.source_files  = "Categories", "Categories/*.{h,m}"
+  s.source_files  = "Categories", "Categories/*.{h}", "Categories/**/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "Categories/*.h"
+#s.public_header_files = "Categories/*.h"
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
   # s.framework  = "SomeFramework"
-#s.frameworks = 'UIKit', 'CoreFoundation' ,'QuartzCore', 'CoreGraphics', 'CoreImage', 'CoreText', 'ImageIO', 'Accelerate'
+  s.frameworks = 'UIKit', 'CoreFoundation' ,'QuartzCore', 'CoreGraphics', 'CoreImage', 'CoreText', 'ImageIO', 'Accelerate'
 
   # s.library   = "iconv"
 #s.libraries = "z"
