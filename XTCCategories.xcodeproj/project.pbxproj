@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0546AFAB1ED0221D00FFFB7B /* UIDevice+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0546AFAA1ED0221D00FFFB7B /* UIDevice+XTCAdd.m */; };
 		0597F9911EA5F6BE00C7BD9E /* UIColor+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597F9901EA5F6BE00C7BD9E /* UIColor+XTCAdd.m */; };
 		0597F9941EA5F80900C7BD9E /* UIImage+XTCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0597F9931EA5F80900C7BD9E /* UIImage+XTCAdd.m */; };
 		05F0AF001EA5154700757690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F0AEFF1EA5154700757690 /* main.m */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0546AFA91ED0221D00FFFB7B /* UIDevice+XTCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+XTCAdd.h"; sourceTree = "<group>"; };
+		0546AFAA1ED0221D00FFFB7B /* UIDevice+XTCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+XTCAdd.m"; sourceTree = "<group>"; };
 		0597F98F1EA5F6BE00C7BD9E /* UIColor+XTCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+XTCAdd.h"; sourceTree = "<group>"; };
 		0597F9901EA5F6BE00C7BD9E /* UIColor+XTCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XTCAdd.m"; sourceTree = "<group>"; };
 		0597F9921EA5F80900C7BD9E /* UIImage+XTCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XTCAdd.h"; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				0597F9901EA5F6BE00C7BD9E /* UIColor+XTCAdd.m */,
 				0597F9921EA5F80900C7BD9E /* UIImage+XTCAdd.h */,
 				0597F9931EA5F80900C7BD9E /* UIImage+XTCAdd.m */,
+				0546AFA91ED0221D00FFFB7B /* UIDevice+XTCAdd.h */,
+				0546AFAA1ED0221D00FFFB7B /* UIDevice+XTCAdd.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 				0597F9911EA5F6BE00C7BD9E /* UIColor+XTCAdd.m in Sources */,
 				05F0AF061EA5154700757690 /* ViewController.m in Sources */,
 				05F0AF031EA5154700757690 /* AppDelegate.m in Sources */,
+				0546AFAB1ED0221D00FFFB7B /* UIDevice+XTCAdd.m in Sources */,
 				05F0AF1E1EA5159D00757690 /* NSString+XTCAdd.m in Sources */,
 				05F0AF001EA5154700757690 /* main.m in Sources */,
 			);
