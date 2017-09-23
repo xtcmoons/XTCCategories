@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XTCCategories"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "A manager to get iOS keyboard views, frames and transform."
 #s.description  = <<-DESC
 #
