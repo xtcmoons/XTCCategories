@@ -84,6 +84,9 @@
                               @"iPhone11,4" : @"iPhone XS MAX",
                               @"iPhone11,6" : @"iPhone XS MAX",
                               @"iPhone11,8" : @"iPhone XR",
+                              @"iPhone12,1" : @"iPhone 11",
+                              @"iPhone12,3" : @"iPhone 11 Pro",
+                              @"iPhone12,5" : @"iPhone 11 Pro Max",
 
                               @"iPad1,1" : @"iPad 1",
                               @"iPad2,1" : @"iPad 2 (WiFi)",
